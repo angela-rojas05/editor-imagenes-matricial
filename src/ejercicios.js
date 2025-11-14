@@ -4,6 +4,7 @@
 // Nombre del estudiante: _________________
 // Fecha: _________________
 // Grupo: _________________
+// Prueba angela
 
 const { PNG } = require('pngjs');
 const fs = require('fs');
