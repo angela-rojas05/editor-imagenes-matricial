@@ -1,10 +1,9 @@
 // ============================================
 // EDITOR DE IMÁGENES CON ÁLGEBRA MATRICIAL
 // ============================================
-// Nombre del estudiante: _________________
-// Fecha: _________________
-// Grupo: _________________
-// Prueba angela
+// Nombre del estudiante: Ángela Yaritzi Rojas Brito
+// Fecha: 16/11/25
+// Grupo: 1 B
 
 const { PNG } = require('pngjs');
 const fs = require('fs');
