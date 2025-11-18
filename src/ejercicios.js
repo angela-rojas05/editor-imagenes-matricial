@@ -496,8 +496,33 @@ function mezclarImagenes(matriz1, matriz2, factor) {
   // r = r1 * (1 - factor) + r2 * factor
   // g = g1 * (1 - factor) + g2 * factor
   // b = b1 * (1 - factor) + b2 * factor
+
+  const alto = matriz1.length;
+  const ancho = matriz1[0].length;
+
+  const resultado = [];
+
+  for (let y = 0; y < alto; y++) {
+    const fila = [];
+    for (let x = 0; x < ancho; x++) {
+      const p1 = matriz1[y][x];
+      const p2 = matriz2[y][x];
+
+      const r = p1.r * (1 - factor) + p2.r * factor;
+      const g = p1.g * (1 - factor) + p2.g * factor;
+      const b = p1.b * (1 - factor) + p2.b * factor;
+
+       fila.push({
+        r: Math.round(r),
+        g: Math.round(g),
+        b: Math.round(b),
+        a: p1.a 
+      });
+    }
+     resultado.push(fila);
+  }
   
-  return []; // REEMPLAZAR
+  return resultado; 
 }
 
 /**
