@@ -3,6 +3,18 @@
 **Fundamentos de Álgebra - Unidad III: Álgebra Lineal Aplicada**  
 Tecnológico de Software
 
+# Actividad 17: Editor de imágenes matricial
+
+## 👨‍💻 Información del Estudiante
+
+- **Nombre:** [Ángela Yaritzi Rojas Brito]
+- **Matrícula:** [SW2509026]
+- **Grupo:** [B]
+- **Cuatrimestre:** Primer Cuatrimestre
+- **Carrera:** TSU en Desarrollo e Innovación de Software
+- **Profesor:** Jorge Javier Pedrozo Romero
+
+
 ---
 
 ## Objetivo
