@@ -279,9 +279,28 @@ for (let i = 0; i < resultado.length; i++) {
  */
 function invertirColores(matriz) {
   // TODO: Implementar inversión de colores
-  
-  return []; // REEMPLAZAR
+  const resultado = [];
+
+  for (let y = 0; y < matriz.length; y++) {
+    const filaN = [];
+
+    for (let x = 0; x < matriz[y].length; x++) {
+      const px = matriz[y][x];
+
+      filaN.push({
+        r: 255 - px.r,
+        g: 255 - px.g,
+        b: 255 - px.b,
+        a: px.a // la opacidad NO se invierte
+      });
+    }
+
+    resultado.push(filaN);
+  }
+
+  return resultado;
 }
+
 
 /**
  * Ejercicio 2.3: Convertir a escala de grises (9 puntos)
