@@ -399,8 +399,16 @@ function voltearHorizontal(matriz) {
  */
 function voltearVertical(matriz) {
   // TODO: Implementar volteo vertical
-  
-  return []; // REEMPLAZAR
+  const resultado = [];
+  for (let y = matriz.length - 1; y >= 0; y--) {
+    const filaC = matriz[y].map(pixel => ({
+      r: pixel.r, g: pixel.g, b: pixel.b, a: pixel.a
+    }));
+
+    resultado.push(filaC);
+  }
+
+  return resultado;
 }
 
 /**
