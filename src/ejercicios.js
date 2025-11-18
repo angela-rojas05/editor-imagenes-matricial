@@ -269,7 +269,7 @@ for (let i = 0; i < resultado.length; i++) {
  * 
  * Concepto matemático:
  * R_nuevo = 255 - R_original
- * G_nuevo = 255 - G_original
+ * G_nuevo = 255 - G_orÑiginal
  * B_nuevo = 255 - B_original
  * 
  * @example
@@ -319,14 +319,34 @@ function invertirColores(matriz) {
 function convertirEscalaGrises(matriz) {
   // TODO: Implementar conversión a escala de grises
   
-  // Para cada pixel:
-  // 1. Calcular el valor de gris
-  // const gris = 0.299 * pixel.r + 0.587 * pixel.g + 0.114 * pixel.b;
-  // 
-  // 2. Asignar ese valor a los tres canales
-  // pixelNuevo = {r: gris, g: gris, b: gris, a: pixel.a}
-  
-  return []; // REEMPLAZAR
+ const resultado = [];
+
+  for (let y = 0; y < matriz.length; y++) {
+    const filaNueva = [];
+
+    for (let x = 0; x < matriz[y].length; x++) {
+      const px = matriz[y][x];
+
+      // 1. Calcular gris
+      const gris = Math.round(
+        0.299 * px.r +
+        0.587 * px.g +
+        0.114 * px.b
+      );
+
+      // 2. Crear pixel en escala de grises
+      filaNueva.push({
+        r: gris,
+        g: gris,
+        b: gris,
+        a: px.a
+      });
+    }
+
+    resultado.push(filaNueva);
+  }
+
+  return resultado;
 }
 
 // ============================================
