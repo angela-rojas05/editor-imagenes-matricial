@@ -17,9 +17,17 @@ Tecnológico de Software
 
 ---
 
-## Objetivo
+## Descripción de la actividad 
+Esta actividad consiste en un repositorio donde estan registrados una serie de problemas resueltos en JavaScript con un enfoque a los temas vistos en clase: las matrices.
 
-Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
+## Objetivos esperados
+
+[✅] Aplicar conceptos de programación en JavaScript
+[✅] Dominar el control de versiones con Git y GitHub
+[✅] Resolver problemas matemáticos mediante código
+[✅] Trabajar con arrays y arrays bidimensionales (matrices)
+[✅] Desarrollar habilidades de debugging y testing
+[✅] Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
 
 ---
 
