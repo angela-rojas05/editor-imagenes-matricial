@@ -22,12 +22,13 @@ Esta actividad consiste en un repositorio donde estan registrados una serie de p
 
 ## Objetivos esperados
 
-[✅] Aplicar conceptos de programación en JavaScript
-[✅] Dominar el control de versiones con Git y GitHub
-[✅] Resolver problemas matemáticos mediante código
-[✅] Trabajar con arrays y arrays bidimensionales (matrices)
-[✅] Desarrollar habilidades de debugging y testing
-[✅] Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
+- [x] Aplicar conceptos de programación en JavaScript
+- [x] Dominar el control de versiones con Git y GitHub
+- [x] Resolver problemas matemáticos mediante código
+- [x] Trabajar con arrays y arrays bidimensionales (matrices)
+- [x] Desarrollar habilidades de debugging y testing
+- [x] Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal
+
 
 ---
 
