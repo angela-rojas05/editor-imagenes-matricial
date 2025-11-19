@@ -603,7 +603,7 @@ function detectarBordes(matriz, umbral = 50) {
   // 2. Para cada pixel (excepto bordes de la imagen):
   //    - Comparar con pixel derecho y pixel inferior
   //    - Si diferencia > umbral, marcar como borde
-//Prueba
+//Prueba 2
   const alto = matriz.length;
   const ancho = matriz[0].length;
 
